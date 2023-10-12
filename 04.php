@@ -18,13 +18,13 @@ class Empleado {
     public function __construct($nombres, $apellidos, $departamento, $email, $teléfono)
     // Lo métodos mágicos inician con guión bajo doble para poder utilizarlo en la clase empleado
     {
-       $this->nombres = $nombres;/* con el this se manda a llamar desde el automático cuando es instanciada una clase;
-       algo muy importante que este this con esta flecha es que hace referencia a los atributos y además sirve para 
-       crear métodos #1 se pueden llamar con ese this.*/
-       $this->apellidos = $apellidos;
-       $this->departamento = $departamento;
-       $this->email = $email;
-       $this->teléfono = $teléfono;
+        $this->nombres = $nombres;/* con el this se manda a llamar desde el automático cuando es instanciada una clase;
+        algo muy importante que este this con esta flecha es que hace referencia a los atributos y además sirve para 
+        crear métodos #1 se pueden llamar con ese this.*/
+        $this->apellidos = $apellidos;
+        $this->departamento = $departamento;
+        $this->email = $email;
+        $this->teléfono = $teléfono;
 
     }
 }
